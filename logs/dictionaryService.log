@@ -1,0 +1,1012 @@
+2019-09-12 11:32:12.470 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:32:12.475  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:32:12.475  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:32:12.578  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:32:12.583  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 11:32:12.649  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:32:12.650  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:32:12.650  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:32:12.656  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:32:12.657  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 180 ms
+2019-09-12 11:32:12.677  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:32:12.683  INFO 18509 --- [cluster-ClusterId{value='5d79df64f2e1ea484d018a85', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:194}] to localhost:27017
+2019-09-12 11:32:12.684  INFO 18509 --- [cluster-ClusterId{value='5d79df64f2e1ea484d018a85', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=433014}
+2019-09-12 11:32:12.703  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:32:12.744  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:32:12.789  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:32:12.790  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.367 seconds (JVM running for 205.607)
+2019-09-12 11:32:12.791  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:32:22.054  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 11:32:22.059  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 11:32:22.064  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-09-12 11:32:22.071  INFO 18509 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:195}] to localhost:27017
+2019-09-12 11:34:53.855  INFO 18509 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:34:53.858  INFO 18509 --- [Thread-16] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:6, serverValue:195}] to localhost:27017 because the pool has been closed.
+2019-09-12 11:34:55.205 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:34:55.208  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:34:55.209  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:34:55.297  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:34:55.301  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 11:34:55.361  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:34:55.362  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:34:55.362  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:34:55.369  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:34:55.369  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 159 ms
+2019-09-12 11:34:55.388  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:34:55.391  INFO 18509 --- [cluster-ClusterId{value='5d79e007f2e1ea484d018a86', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:196}] to localhost:27017
+2019-09-12 11:34:55.395  INFO 18509 --- [cluster-ClusterId{value='5d79e007f2e1ea484d018a86', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1019004}
+2019-09-12 11:34:55.409  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:34:55.443  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:34:55.497  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:34:55.498  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 1.509 seconds (JVM running for 368.312)
+2019-09-12 11:34:55.499  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:38:31.520  INFO 18509 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:38:32.094 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:38:32.099  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:38:32.099  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:38:32.222  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:38:32.227  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 11:38:32.293  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:38:32.295  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:38:32.296  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:38:32.304  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:38:32.304  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 203 ms
+2019-09-12 11:38:32.318  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:38:32.321  INFO 18509 --- [cluster-ClusterId{value='5d79e0e0f2e1ea484d018a87', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:197}] to localhost:27017
+2019-09-12 11:38:32.322  INFO 18509 --- [cluster-ClusterId{value='5d79e0e0f2e1ea484d018a87', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=390522}
+2019-09-12 11:38:32.336  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:38:32.371  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:38:32.414  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:38:32.415  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.653 seconds (JVM running for 585.225)
+2019-09-12 11:38:32.416  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:38:50.929  INFO 18509 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:38:51.044 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:38:51.048  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:38:51.048  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:38:51.142  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:38:51.145  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:38:51.191  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:38:51.192  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:38:51.192  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:38:51.198  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:38:51.198  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 149 ms
+2019-09-12 11:38:51.220  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:38:51.224  INFO 18509 --- [cluster-ClusterId{value='5d79e0f3f2e1ea484d018a88', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:198}] to localhost:27017
+2019-09-12 11:38:51.226  INFO 18509 --- [cluster-ClusterId{value='5d79e0f3f2e1ea484d018a88', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=436216}
+2019-09-12 11:38:51.242  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:38:51.276  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:38:51.308  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:38:51.309  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.284 seconds (JVM running for 604.119)
+2019-09-12 11:38:51.310  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:39:25.738  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 11:39:25.740  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 11:39:25.743  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-09-12 11:39:25.754  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:39:25.765  INFO 18509 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:199}] to localhost:27017
+2019-09-12 11:43:12.498  INFO 18509 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:43:12.502  INFO 18509 --- [Thread-34] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:10, serverValue:199}] to localhost:27017 because the pool has been closed.
+2019-09-12 11:43:13.386 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:43:13.391  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:43:13.391  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:43:13.582  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:43:13.593  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-09-12 11:43:13.672  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:43:13.673  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:43:13.673  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:43:13.679  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:43:13.679  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 285 ms
+2019-09-12 11:43:13.696  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:43:13.700  INFO 18509 --- [cluster-ClusterId{value='5d79e1f9f2e1ea484d0198ce', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:200}] to localhost:27017
+2019-09-12 11:43:13.701  INFO 18509 --- [cluster-ClusterId{value='5d79e1f9f2e1ea484d0198ce', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=239303}
+2019-09-12 11:43:13.718  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:43:13.764  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:43:13.799  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:43:13.799  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.884 seconds (JVM running for 866.604)
+2019-09-12 11:43:13.800  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:43:48.067  INFO 18509 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 11:43:48.068  INFO 18509 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 11:43:48.070  INFO 18509 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2019-09-12 11:43:48.077  INFO 18509 --- [http-nio-8081-exec-2] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:43:48.080 ERROR 18509 --- [http-nio-8081-exec-2] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 11:44:13.330  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:44:13.331 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 11:44:45.911  INFO 18509 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:44:46.363 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:44:46.366  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:44:46.366  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:44:46.454  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:44:46.457  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:44:46.500  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:44:46.501  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:44:46.501  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:44:46.506  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:44:46.506  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 139 ms
+2019-09-12 11:44:46.519  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:44:46.532  INFO 18509 --- [cluster-ClusterId{value='5d79e256f2e1ea484d0198cf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:201}] to localhost:27017
+2019-09-12 11:44:46.533  INFO 18509 --- [cluster-ClusterId{value='5d79e256f2e1ea484d0198cf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=245131}
+2019-09-12 11:44:46.551  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:44:46.612  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:44:46.645  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:44:46.646  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.624 seconds (JVM running for 959.45)
+2019-09-12 11:44:46.647  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:44:54.990  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 11:44:54.991  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 11:44:54.993  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2019-09-12 11:44:54.996  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:44:54.996  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : file
+2019-09-12 11:44:54.996 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 11:45:18.309  INFO 18509 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:45:18.472 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:45:18.476  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:45:18.476  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:45:18.560  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:45:18.564  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 11:45:18.609  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:45:18.610  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:45:18.610  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:45:18.615  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:45:18.615  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 138 ms
+2019-09-12 11:45:18.629  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:45:18.634  INFO 18509 --- [cluster-ClusterId{value='5d79e276f2e1ea484d0198d0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:202}] to localhost:27017
+2019-09-12 11:45:18.635  INFO 18509 --- [cluster-ClusterId{value='5d79e276f2e1ea484d0198d0', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=209764}
+2019-09-12 11:45:18.647  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:45:18.683  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:45:18.720  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:45:18.721  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.279 seconds (JVM running for 991.524)
+2019-09-12 11:45:18.723  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:45:25.813  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 11:45:25.814  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 11:45:25.816  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2019-09-12 11:45:25.819  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:45:25.819  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : text/plain
+2019-09-12 11:45:25.819 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 11:46:04.495  INFO 18509 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:46:04.903 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:46:04.905  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:46:04.906  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:46:04.997  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:46:05.000  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:46:05.049  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:46:05.050  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:46:05.050  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:46:05.055  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:46:05.055  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 148 ms
+2019-09-12 11:46:05.072  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:46:05.085  INFO 18509 --- [cluster-ClusterId{value='5d79e2a5f2e1ea484d0198d1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:203}] to localhost:27017
+2019-09-12 11:46:05.087  INFO 18509 --- [cluster-ClusterId{value='5d79e2a5f2e1ea484d0198d1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=302951}
+2019-09-12 11:46:05.098  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:46:05.128  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:46:05.160  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:46:05.161  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.595 seconds (JVM running for 1037.963)
+2019-09-12 11:46:05.162  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:46:12.047  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 11:46:12.053  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 11:46:12.059  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-09-12 11:46:12.062  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:46:12.062  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : text/plain
+2019-09-12 11:46:12.064  INFO 18509 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:204}] to localhost:27017
+2019-09-12 11:46:22.399  INFO 18509 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:46:22.400  INFO 18509 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : image/png
+2019-09-12 11:46:22.411 ERROR 18509 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 11:46:33.030  INFO 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 11:46:33.031  INFO 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : application/pdf
+2019-09-12 11:46:33.032 ERROR 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 11:49:17.007  INFO 18509 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:17.012  INFO 18509 --- [Thread-58] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:15, serverValue:204}] to localhost:27017 because the pool has been closed.
+2019-09-12 11:49:17.502 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:49:17.507  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:49:17.507  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:49:17.640  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:49:17.646  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-09-12 11:49:17.707  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:49:17.708  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:49:17.708  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:49:17.712  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:49:17.712  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 203 ms
+2019-09-12 11:49:17.726  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:49:17.729  INFO 18509 --- [cluster-ClusterId{value='5d79e365f2e1ea484d0198de', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:205}] to localhost:27017
+2019-09-12 11:49:17.730  INFO 18509 --- [cluster-ClusterId{value='5d79e365f2e1ea484d0198de', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=307959}
+2019-09-12 11:49:17.746  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:49:17.787  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:17.825  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:49:17.825  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.591 seconds (JVM running for 1230.624)
+2019-09-12 11:49:17.827  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:49:31.312  INFO 18509 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:31.428 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:49:31.432  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:49:31.432  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:49:31.545  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:49:31.550  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 11:49:31.593  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:49:31.593  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:49:31.594  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:49:31.599  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:49:31.599  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 165 ms
+2019-09-12 11:49:31.615  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:49:31.616  INFO 18509 --- [cluster-ClusterId{value='5d79e373f2e1ea484d0198df', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:206}] to localhost:27017
+2019-09-12 11:49:31.618  INFO 18509 --- [cluster-ClusterId{value='5d79e373f2e1ea484d0198df', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=264444}
+2019-09-12 11:49:31.647  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:49:31.697  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:31.727  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:49:31.727  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.313 seconds (JVM running for 1244.526)
+2019-09-12 11:49:31.729  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:49:41.211  INFO 18509 --- [Thread-70] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:41.322 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:49:41.327  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:49:41.327  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:49:41.410  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:49:41.418  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2019-09-12 11:49:41.459  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:49:41.460  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:49:41.460  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:49:41.464  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:49:41.464  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 135 ms
+2019-09-12 11:49:41.478  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:49:41.484  INFO 18509 --- [cluster-ClusterId{value='5d79e37df2e1ea484d0198e0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:207}] to localhost:27017
+2019-09-12 11:49:41.486  INFO 18509 --- [cluster-ClusterId{value='5d79e37df2e1ea484d0198e0', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=278311}
+2019-09-12 11:49:41.494  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:49:41.542  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:41.608  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:49:41.609  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.307 seconds (JVM running for 1254.407)
+2019-09-12 11:49:41.610  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:49:58.114  INFO 18509 --- [Thread-76] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:58.229 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:49:58.232  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:49:58.232  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:49:58.345  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:49:58.352  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-09-12 11:49:58.393  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:49:58.393  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:49:58.393  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:49:58.402  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:49:58.402  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 168 ms
+2019-09-12 11:49:58.417  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:49:58.419  INFO 18509 --- [cluster-ClusterId{value='5d79e38ef2e1ea484d0198e1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:208}] to localhost:27017
+2019-09-12 11:49:58.420  INFO 18509 --- [cluster-ClusterId{value='5d79e38ef2e1ea484d0198e1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=159384}
+2019-09-12 11:49:58.433  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:49:58.463  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:49:58.492  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:49:58.493  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.291 seconds (JVM running for 1271.291)
+2019-09-12 11:49:58.494  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:50:07.971  INFO 18509 --- [Thread-82] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:50:08.214 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:50:08.216  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:50:08.217  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:50:08.300  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:50:08.303  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:50:08.343  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:50:08.343  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:50:08.343  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:50:08.347  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:50:08.347  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 129 ms
+2019-09-12 11:50:08.366  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:50:08.370  INFO 18509 --- [cluster-ClusterId{value='5d79e398f2e1ea484d0198e2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:20, serverValue:209}] to localhost:27017
+2019-09-12 11:50:08.371  INFO 18509 --- [cluster-ClusterId{value='5d79e398f2e1ea484d0198e2', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=196672}
+2019-09-12 11:50:08.387  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:50:08.414  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:50:08.443  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:50:08.443  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.247 seconds (JVM running for 1281.241)
+2019-09-12 11:50:08.445  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:51:23.839  INFO 18509 --- [Thread-88] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:51:24.394 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:51:24.401  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:51:24.401  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:51:24.486  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:51:24.489  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:51:24.584  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:51:24.585  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:51:24.585  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:51:24.590  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:51:24.590  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 187 ms
+2019-09-12 11:51:24.612  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:51:24.615  INFO 18509 --- [cluster-ClusterId{value='5d79e3e4f2e1ea484d0198e3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:21, serverValue:210}] to localhost:27017
+2019-09-12 11:51:24.617  INFO 18509 --- [cluster-ClusterId{value='5d79e3e4f2e1ea484d0198e3', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=242266}
+2019-09-12 11:51:24.633  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:51:24.683  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:51:24.747  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:51:24.748  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.751 seconds (JVM running for 1357.544)
+2019-09-12 11:51:24.749  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:52:20.553  INFO 18509 --- [Thread-94] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:52:20.748 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:52:20.753  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:52:20.753  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:52:20.830  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:52:20.835  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 11:52:20.876  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:52:20.877  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:52:20.877  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:52:20.879  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:52:20.880  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 125 ms
+2019-09-12 11:52:20.895  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:52:20.899  INFO 18509 --- [cluster-ClusterId{value='5d79e41cf2e1ea484d0198e4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:22, serverValue:211}] to localhost:27017
+2019-09-12 11:52:20.900  INFO 18509 --- [cluster-ClusterId{value='5d79e41cf2e1ea484d0198e4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=210453}
+2019-09-12 11:52:20.912  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:52:20.960  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:52:20.994  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:52:20.995  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.27 seconds (JVM running for 1413.79)
+2019-09-12 11:52:20.996  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:53:11.759  INFO 18509 --- [Thread-100] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:53:12.218 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:53:12.220  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:53:12.221  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:53:12.295  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:53:12.300  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 11:53:12.346  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:53:12.346  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:53:12.347  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:53:12.350  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:53:12.350  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 128 ms
+2019-09-12 11:53:12.364  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:53:12.368  INFO 18509 --- [cluster-ClusterId{value='5d79e450f2e1ea484d0198e5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:23, serverValue:212}] to localhost:27017
+2019-09-12 11:53:12.369  INFO 18509 --- [cluster-ClusterId{value='5d79e450f2e1ea484d0198e5', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=211072}
+2019-09-12 11:53:12.381  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:53:12.413  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:53:12.458  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:53:12.459  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.611 seconds (JVM running for 1465.253)
+2019-09-12 11:53:12.460  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:55:05.148  INFO 18509 --- [Thread-106] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:55:05.679 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:55:05.682  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:55:05.683  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:55:05.867  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:55:05.872  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 11:55:05.934  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:55:05.935  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:55:05.935  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:55:05.940  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:55:05.940  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 256 ms
+2019-09-12 11:55:05.955  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:55:05.961  INFO 18509 --- [cluster-ClusterId{value='5d79e4c1f2e1ea484d0198e6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:24, serverValue:213}] to localhost:27017
+2019-09-12 11:55:05.965  INFO 18509 --- [cluster-ClusterId{value='5d79e4c1f2e1ea484d0198e6', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=290078}
+2019-09-12 11:55:05.975  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:55:06.009  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:55:06.045  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:55:06.046  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.652 seconds (JVM running for 1578.838)
+2019-09-12 11:55:06.047  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:55:27.985  INFO 18509 --- [Thread-112] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:55:28.101 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:55:28.107  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:55:28.108  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:55:28.257  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:55:28.260  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:55:28.301  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:55:28.302  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:55:28.302  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:55:28.304  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:55:28.305  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 196 ms
+2019-09-12 11:55:28.327  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:55:28.349  INFO 18509 --- [cluster-ClusterId{value='5d79e4d8f2e1ea484d0198e7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:25, serverValue:214}] to localhost:27017
+2019-09-12 11:55:28.351  INFO 18509 --- [cluster-ClusterId{value='5d79e4d8f2e1ea484d0198e7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=237617}
+2019-09-12 11:55:28.353  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:55:28.395  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:55:28.427  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:55:28.427  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.344 seconds (JVM running for 1601.219)
+2019-09-12 11:55:28.428  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:56:09.164  INFO 18509 --- [Thread-118] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:56:09.266 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:56:09.270  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:56:09.270  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:56:09.360  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:56:09.363  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 11:56:09.410  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:56:09.411  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:56:09.411  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:56:09.415  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:56:09.415  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 144 ms
+2019-09-12 11:56:09.435  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:56:09.439  INFO 18509 --- [cluster-ClusterId{value='5d79e501f2e1ea484d0198e8', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:26, serverValue:215}] to localhost:27017
+2019-09-12 11:56:09.440  INFO 18509 --- [cluster-ClusterId{value='5d79e501f2e1ea484d0198e8', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=264905}
+2019-09-12 11:56:09.460  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:56:09.493  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:56:09.532  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:56:09.533  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.286 seconds (JVM running for 1642.324)
+2019-09-12 11:56:09.534  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:57:40.066  INFO 18509 --- [Thread-124] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:57:40.516 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 11:57:40.520  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 11:57:40.520  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 11:57:40.623  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 11:57:40.627  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 11:57:40.674  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 11:57:40.675  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:57:40.675  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:57:40.678  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:57:40.678  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 156 ms
+2019-09-12 11:57:40.695  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 11:57:40.697  INFO 18509 --- [cluster-ClusterId{value='5d79e55cf2e1ea484d0198e9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:27, serverValue:216}] to localhost:27017
+2019-09-12 11:57:40.699  INFO 18509 --- [cluster-ClusterId{value='5d79e55cf2e1ea484d0198e9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=209779}
+2019-09-12 11:57:40.710  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:57:40.740  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:57:40.806  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 11:57:40.806  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.646 seconds (JVM running for 1733.596)
+2019-09-12 11:57:40.807  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:03:28.369  INFO 18509 --- [Thread-130] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:03:29.082 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:03:29.086  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:03:29.086  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:03:29.202  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:03:29.212  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-09-12 12:03:29.274  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:03:29.274  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:03:29.274  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:03:29.278  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:03:29.278  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 190 ms
+2019-09-12 12:03:29.294  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:03:29.297  INFO 18509 --- [cluster-ClusterId{value='5d79e6b9f2e1ea484d0198ea', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:28, serverValue:217}] to localhost:27017
+2019-09-12 12:03:29.298  INFO 18509 --- [cluster-ClusterId{value='5d79e6b9f2e1ea484d0198ea', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=470548}
+2019-09-12 12:03:29.313  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:03:29.360  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:03:29.401  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:03:29.401  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.656 seconds (JVM running for 2082.184)
+2019-09-12 12:03:29.402  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:04:37.321  INFO 18509 --- [Thread-136] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:04:37.443 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:04:37.446  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:04:37.446  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:04:37.536  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:04:37.539  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 12:04:37.581  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:04:37.582  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:04:37.582  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:04:37.606  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:04:37.607  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 159 ms
+2019-09-12 12:04:37.626  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:04:37.630  INFO 18509 --- [cluster-ClusterId{value='5d79e6fdf2e1ea484d0198eb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:29, serverValue:218}] to localhost:27017
+2019-09-12 12:04:37.632  INFO 18509 --- [cluster-ClusterId{value='5d79e6fdf2e1ea484d0198eb', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=428635}
+2019-09-12 12:04:37.645  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:04:37.675  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:04:37.708  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:04:37.710  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.289 seconds (JVM running for 2150.492)
+2019-09-12 12:04:37.712  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:04:59.410  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 12:04:59.412  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 12:04:59.417  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-09-12 12:04:59.426  WARN 18509 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:05:39.467  INFO 18509 --- [http-nio-8081-exec-2] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:05:39.471  INFO 18509 --- [http-nio-8081-exec-2] c.e.i.controller.StoreWordController     : text/plain
+2019-09-12 12:05:39.479  INFO 18509 --- [http-nio-8081-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:30, serverValue:219}] to localhost:27017
+2019-09-12 12:05:49.087  INFO 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:05:49.088  INFO 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : image/png
+2019-09-12 12:05:49.090 ERROR 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 12:05:49.090 ERROR 18509 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : null
+2019-09-12 12:05:49.100  WARN 18509 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+2019-09-12 12:07:26.487  INFO 18509 --- [Thread-142] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:07:26.488  INFO 18509 --- [Thread-142] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:30, serverValue:219}] to localhost:27017 because the pool has been closed.
+2019-09-12 12:07:27.162 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:07:27.167  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:07:27.167  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:07:27.336  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:07:27.340  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 12:07:27.396  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:07:27.397  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:07:27.397  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:07:27.401  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:07:27.401  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 232 ms
+2019-09-12 12:07:27.414  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:07:27.417  INFO 18509 --- [cluster-ClusterId{value='5d79e7a7f2e1ea484d0198ec', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:31, serverValue:220}] to localhost:27017
+2019-09-12 12:07:27.418  INFO 18509 --- [cluster-ClusterId{value='5d79e7a7f2e1ea484d0198ec', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=157578}
+2019-09-12 12:07:27.431  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:07:27.466  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:07:27.506  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:07:27.507  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.749 seconds (JVM running for 2320.285)
+2019-09-12 12:07:27.508  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:07:33.333  INFO 18509 --- [Thread-148] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:07:33.426 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:07:33.428  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:07:33.428  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:07:33.513  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:07:33.517  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 12:07:33.556  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:07:33.557  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:07:33.557  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:07:33.560  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:07:33.560  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 131 ms
+2019-09-12 12:07:33.574  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:07:33.576  INFO 18509 --- [cluster-ClusterId{value='5d79e7adf2e1ea484d0198ed', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:32, serverValue:221}] to localhost:27017
+2019-09-12 12:07:33.578  INFO 18509 --- [cluster-ClusterId{value='5d79e7adf2e1ea484d0198ed', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=268927}
+2019-09-12 12:07:33.588  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:07:33.620  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:07:33.656  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:07:33.657  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.242 seconds (JVM running for 2326.435)
+2019-09-12 12:07:33.658  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:07:44.254  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 12:07:44.254  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 12:07:44.257  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-09-12 12:07:44.269  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:07:44.269  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : image/png
+2019-09-12 12:07:44.273 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 12:07:44.273 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : null
+2019-09-12 12:07:44.277  WARN 18509 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.inarayan.exception.ValidationException]
+2019-09-12 12:10:04.110  INFO 18509 --- [Thread-154] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:10:04.546 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:10:04.548  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:10:04.549  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:10:04.620  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:10:04.624  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 repository interfaces.
+2019-09-12 12:10:04.662  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:10:04.663  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:10:04.663  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:10:04.666  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:10:04.666  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 116 ms
+2019-09-12 12:10:04.673  WARN 18509 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'storeWordController' defined in file [/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes/com/example/inarayan/controller/StoreWordController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Produces cannot be resolved to a type
+
+2019-09-12 12:10:04.674  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-12 12:10:04.677  INFO 18509 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-12 12:10:04.686 ERROR 18509 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'storeWordController' defined in file [/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes/com/example/inarayan/controller/StoreWordController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Produces cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.example.inarayan.DemoApplication.main(DemoApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Produces cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Produces cannot be resolved to a type
+
+	at com.example.inarayan.controller.StoreWordController.<init>(StoreWordController.java:34) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_191]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 24 common frames omitted
+
+2019-09-12 12:10:10.547 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:10:10.549  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:10:10.550  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:10:10.682  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:10:10.686  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-09-12 12:10:10.741  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:10:10.741  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:10:10.741  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:10:10.744  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:10:10.744  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 193 ms
+2019-09-12 12:10:10.756  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:10:10.758  INFO 18509 --- [cluster-ClusterId{value='5d79e84af2e1ea484d0198ee', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:33, serverValue:222}] to localhost:27017
+2019-09-12 12:10:10.759  INFO 18509 --- [cluster-ClusterId{value='5d79e84af2e1ea484d0198ee', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=204854}
+2019-09-12 12:10:10.772  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:10:10.810  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:10:10.847  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:10:10.848  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.312 seconds (JVM running for 2483.623)
+2019-09-12 12:10:10.850  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:11:52.003  INFO 18509 --- [Thread-160] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:11:52.789 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:11:52.793  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:11:52.793  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:11:52.935  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:11:52.943  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2019-09-12 12:11:53.009  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:11:53.010  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:11:53.010  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:11:53.014  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:11:53.014  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 219 ms
+2019-09-12 12:11:53.022  WARN 18509 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'storeWordController' defined in file [/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes/com/example/inarayan/controller/StoreWordController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ""/words/{word}"", invalid MemberValuePairs
+
+2019-09-12 12:11:53.023  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-12 12:11:53.026  INFO 18509 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-12 12:11:53.027 ERROR 18509 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'storeWordController' defined in file [/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes/com/example/inarayan/controller/StoreWordController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ""/words/{word}"", invalid MemberValuePairs
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.example.inarayan.DemoApplication.main(DemoApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ""/words/{word}"", invalid MemberValuePairs
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ""/words/{word}"", invalid MemberValuePairs
+
+	at com.example.inarayan.controller.StoreWordController.<init>(StoreWordController.java:50) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_191]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 24 common frames omitted
+
+2019-09-12 12:13:31.398 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:13:31.402  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:13:31.402  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:13:31.524  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:13:31.529  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 12:13:31.625  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:13:31.626  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:13:31.626  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:13:31.644  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:13:31.645  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 241 ms
+2019-09-12 12:13:31.664  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:13:31.676  INFO 18509 --- [cluster-ClusterId{value='5d79e913f2e1ea484d0198ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:34, serverValue:223}] to localhost:27017
+2019-09-12 12:13:31.678  INFO 18509 --- [cluster-ClusterId{value='5d79e913f2e1ea484d0198ef', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=310630}
+2019-09-12 12:13:31.694  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:13:31.735  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:13:31.741  WARN 18509 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.example.inarayan.controller.StoreWordController]: public org.springframework.http.ResponseEntity com.example.inarayan.controller.StoreWordController.searchWord(java.lang.String) throws java.lang.Exception
+2019-09-12 12:13:31.741  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:13:31.742  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-12 12:13:31.746  INFO 18509 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-12 12:13:31.747 ERROR 18509 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.example.inarayan.controller.StoreWordController]: public org.springframework.http.ResponseEntity com.example.inarayan.controller.StoreWordController.searchWord(java.lang.String) throws java.lang.Exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.example.inarayan.DemoApplication.main(DemoApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [com.example.inarayan.controller.StoreWordController]: public org.springframework.http.ResponseEntity com.example.inarayan.controller.StoreWordController.searchWord(java.lang.String) throws java.lang.Exception
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$0(AbstractHandlerMethodMapping.java:274) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:410) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:267) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 21 common frames omitted
+Caused by: org.springframework.http.InvalidMediaTypeException: Invalid mime type "boolean application/json": Invalid token character ' ' in token "boolean application"
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:535) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.AbstractMediaTypeExpression.<init>(AbstractMediaTypeExpression.java:51) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.ProducesRequestCondition$ProduceMediaTypeExpression.<init>(ProducesRequestCondition.java:316) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.ProducesRequestCondition.parseExpressions(ProducesRequestCondition.java:122) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.ProducesRequestCondition.<init>(ProducesRequestCondition.java:92) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder.build(RequestMappingInfo.java:515) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:315) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:260) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:220) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:60) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$0(AbstractHandlerMethodMapping.java:270) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 31 common frames omitted
+Caused by: org.springframework.util.InvalidMimeTypeException: Invalid mime type "boolean application/json": Invalid token character ' ' in token "boolean application"
+	at org.springframework.util.MimeTypeUtils.parseMimeType(MimeTypeUtils.java:248) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:532) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 41 common frames omitted
+
+2019-09-12 12:14:32.069 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:14:32.073  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:14:32.073  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:14:32.242  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:14:32.250  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2019-09-12 12:14:32.328  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:14:32.330  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:14:32.331  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:14:32.335  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:14:32.335  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 261 ms
+2019-09-12 12:14:32.353  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:14:32.356  INFO 18509 --- [cluster-ClusterId{value='5d79e950f2e1ea484d0198f0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:35, serverValue:224}] to localhost:27017
+2019-09-12 12:14:32.358  INFO 18509 --- [cluster-ClusterId{value='5d79e950f2e1ea484d0198f0', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=620635}
+2019-09-12 12:14:32.372  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:14:32.422  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:14:32.432  WARN 18509 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.example.inarayan.controller.StoreWordController]: public org.springframework.http.ResponseEntity com.example.inarayan.controller.StoreWordController.searchWord(java.lang.String) throws java.lang.Exception
+2019-09-12 12:14:32.433  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:14:32.433  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-12 12:14:32.437  INFO 18509 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-12 12:14:32.438 ERROR 18509 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.example.inarayan.controller.StoreWordController]: public org.springframework.http.ResponseEntity com.example.inarayan.controller.StoreWordController.searchWord(java.lang.String) throws java.lang.Exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.example.inarayan.DemoApplication.main(DemoApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [com.example.inarayan.controller.StoreWordController]: public org.springframework.http.ResponseEntity com.example.inarayan.controller.StoreWordController.searchWord(java.lang.String) throws java.lang.Exception
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$0(AbstractHandlerMethodMapping.java:274) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:410) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:267) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 21 common frames omitted
+Caused by: org.springframework.http.InvalidMediaTypeException: Invalid mime type "boolean": does not contain '/'
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:535) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.AbstractMediaTypeExpression.<init>(AbstractMediaTypeExpression.java:51) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.ProducesRequestCondition$ProduceMediaTypeExpression.<init>(ProducesRequestCondition.java:316) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.ProducesRequestCondition.parseExpressions(ProducesRequestCondition.java:122) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.condition.ProducesRequestCondition.<init>(ProducesRequestCondition.java:92) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder.build(RequestMappingInfo.java:515) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:315) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:260) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:220) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:60) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$0(AbstractHandlerMethodMapping.java:270) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 31 common frames omitted
+Caused by: org.springframework.util.InvalidMimeTypeException: Invalid mime type "boolean": does not contain '/'
+	at org.springframework.util.MimeTypeUtils.parseMimeType(MimeTypeUtils.java:198) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:532) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 41 common frames omitted
+
+2019-09-12 12:16:00.187 ERROR 18509 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:16:00.191  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18509 (/Users/manishakumari/Documents/Application_Design_Challenge/demo/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/demo)
+2019-09-12 12:16:00.191  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:16:00.409  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:16:00.417  INFO 18509 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2019-09-12 12:16:00.495  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:16:00.496  INFO 18509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:16:00.496  INFO 18509 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:16:00.500  INFO 18509 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:16:00.500  INFO 18509 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 307 ms
+2019-09-12 12:16:00.517  INFO 18509 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:16:00.520  INFO 18509 --- [cluster-ClusterId{value='5d79e9a8f2e1ea484d0198f1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:36, serverValue:225}] to localhost:27017
+2019-09-12 12:16:00.521  INFO 18509 --- [cluster-ClusterId{value='5d79e9a8f2e1ea484d0198f1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=215112}
+2019-09-12 12:16:00.535  INFO 18509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:16:00.624  INFO 18509 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:16:00.670  INFO 18509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:16:00.671  INFO 18509 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.788 seconds (JVM running for 2833.44)
+2019-09-12 12:16:00.672  INFO 18509 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:16:06.331  INFO 18509 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 12:16:06.332  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 12:16:06.336  INFO 18509 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-09-12 12:16:06.344  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:16:06.345  INFO 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : image/png
+2019-09-12 12:16:06.347 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 12:16:06.347 ERROR 18509 --- [http-nio-8081-exec-1] c.e.i.controller.StoreWordController     : null
+2019-09-12 12:16:06.349  WARN 18509 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.inarayan.exception.ValidationException]
+2019-09-12 12:16:17.955  INFO 18509 --- [http-nio-8081-exec-2] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:16:17.956  INFO 18509 --- [http-nio-8081-exec-2] c.e.i.controller.StoreWordController     : text/plain
+2019-09-12 12:16:17.968  INFO 18509 --- [http-nio-8081-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:37, serverValue:226}] to localhost:27017
+2019-09-12 12:16:41.196 ERROR 18509 --- [http-nio-8081-exec-6] c.e.i.controller.StoreWordController     : Word not found
+2019-09-12 12:16:41.206  WARN 18509 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.inarayan.exception.NotFoundException]
+2019-09-12 12:17:37.425 ERROR 18509 --- [http-nio-8081-exec-10] c.e.i.controller.StoreWordController     : Word not found
+2019-09-12 12:17:37.428  WARN 18509 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.inarayan.exception.NotFoundException]
+2019-09-12 12:19:25.643  INFO 18509 --- [Thread-169] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:19:25.649  INFO 18509 --- [Thread-169] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:37, serverValue:226}] to localhost:27017 because the pool has been closed.
+2019-09-12 12:21:14.788 ERROR 18617 --- [main] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:21:14.876  INFO 18617 --- [main] c.example.inarayan.DemoApplicationTests  : Starting DemoApplicationTests on MANISHAs-MBP.Dlink with PID 18617 (started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/Dictionary)
+2019-09-12 12:21:14.877  INFO 18617 --- [main] c.example.inarayan.DemoApplicationTests  : No active profile set, falling back to default profiles: default
+2019-09-12 12:21:15.552  INFO 18617 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:21:15.617  INFO 18617 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 1 repository interfaces.
+2019-09-12 12:21:16.235  INFO 18617 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:21:16.373  INFO 18617 --- [cluster-ClusterId{value='5d79eae4f2e1ea48b9180638', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:228}] to localhost:27017
+2019-09-12 12:21:16.380  INFO 18617 --- [cluster-ClusterId{value='5d79eae4f2e1ea48b9180638', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4928612}
+2019-09-12 12:21:17.154  INFO 18617 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:21:17.442  INFO 18617 --- [main] c.example.inarayan.DemoApplicationTests  : Started DemoApplicationTests in 2.928 seconds (JVM running for 3.73)
+2019-09-12 12:21:17.657  INFO 18617 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:21:54.189 ERROR 18624 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:21:54.237  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18624 (/Users/manishakumari/Documents/Application_Design_Challenge/Dictionary/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/Dictionary)
+2019-09-12 12:21:54.237  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:21:54.266  INFO 18624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-12 12:21:54.269  INFO 18624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-12 12:21:54.680  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:21:54.717  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-09-12 12:21:55.027  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:21:55.042  INFO 18624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:21:55.042  INFO 18624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:21:55.086  INFO 18624 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:21:55.087  INFO 18624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 818 ms
+2019-09-12 12:21:55.277  INFO 18624 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:21:55.314  INFO 18624 --- [cluster-ClusterId{value='5d79eb0bf2e1ea48c094d42c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:229}] to localhost:27017
+2019-09-12 12:21:55.317  INFO 18624 --- [cluster-ClusterId{value='5d79eb0bf2e1ea48c094d42c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1795761}
+2019-09-12 12:21:55.519  INFO 18624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:21:55.688  INFO 18624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:21:55.827  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:21:55.830  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 1.822 seconds (JVM running for 2.254)
+2019-09-12 12:22:03.323  INFO 18624 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 12:22:03.324  INFO 18624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 12:22:03.328  INFO 18624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-09-12 12:22:03.376  INFO 18624 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:230}] to localhost:27017
+2019-09-12 12:22:13.816 ERROR 18624 --- [http-nio-8081-exec-5] c.e.i.controller.StoreWordController     : Word not found
+2019-09-12 12:22:13.824  WARN 18624 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.inarayan.exception.NotFoundException]
+2019-09-12 12:22:32.914  WARN 18624 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:22:55.978  WARN 18624 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:23:36.335  WARN 18624 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:24:32.457  INFO 18624 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:24:32.462  INFO 18624 --- [Thread-5] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:230}] to localhost:27017 because the pool has been closed.
+2019-09-12 12:24:33.010 ERROR 18624 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:24:33.014  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18624 (/Users/manishakumari/Documents/Application_Design_Challenge/Dictionary/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/Dictionary)
+2019-09-12 12:24:33.015  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:24:33.172  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:24:33.178  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-09-12 12:24:33.246  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:24:33.246  INFO 18624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:24:33.247  INFO 18624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:24:33.251  INFO 18624 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:24:33.251  INFO 18624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 233 ms
+2019-09-12 12:24:33.261  WARN 18624 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'storeWordController' defined in file [/Users/manishakumari/Documents/Application_Design_Challenge/Dictionary/target/classes/com/example/inarayan/controller/StoreWordController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+2019-09-12 12:24:33.262  INFO 18624 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-12 12:24:33.268  INFO 18624 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-12 12:24:33.275 ERROR 18624 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'storeWordController' defined in file [/Users/manishakumari/Documents/Application_Design_Challenge/Dictionary/target/classes/com/example/inarayan/controller/StoreWordController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.example.inarayan.DemoApplication.main(DemoApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.inarayan.controller.StoreWordController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at com.example.inarayan.controller.StoreWordController.<init>(StoreWordController.java:51) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_191]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 24 common frames omitted
+
+2019-09-12 12:24:38.139 ERROR 18624 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:24:38.142  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18624 (/Users/manishakumari/Documents/Application_Design_Challenge/Dictionary/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/Dictionary)
+2019-09-12 12:24:38.142  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:24:38.287  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:24:38.292  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-09-12 12:24:38.357  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:24:38.358  INFO 18624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:24:38.358  INFO 18624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:24:38.362  INFO 18624 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:24:38.362  INFO 18624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 218 ms
+2019-09-12 12:24:38.382  INFO 18624 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:24:38.386  INFO 18624 --- [cluster-ClusterId{value='5d79ebaef2e1ea48c094d42d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:231}] to localhost:27017
+2019-09-12 12:24:38.387  INFO 18624 --- [cluster-ClusterId{value='5d79ebaef2e1ea48c094d42d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=391462}
+2019-09-12 12:24:38.410  INFO 18624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:24:38.463  INFO 18624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:24:38.512  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:24:38.512  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.394 seconds (JVM running for 164.933)
+2019-09-12 12:24:38.515  INFO 18624 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:24:47.748  INFO 18624 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 12:24:47.753  INFO 18624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 12:24:47.761  INFO 18624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-09-12 12:24:47.764  WARN 18624 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:25:16.181  INFO 18624 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:25:16.382 ERROR 18624 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'debug;' for 'com.com.example.inarayan'
+2019-09-12 12:25:16.385  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Starting DemoApplication on MANISHAs-MBP.Dlink with PID 18624 (/Users/manishakumari/Documents/Application_Design_Challenge/Dictionary/target/classes started by manishakumari in /Users/manishakumari/Documents/Application_Design_Challenge/Dictionary)
+2019-09-12 12:25:16.386  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-09-12 12:25:16.483  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-12 12:25:16.490  INFO 18624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-09-12 12:25:16.592  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-12 12:25:16.593  INFO 18624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 12:25:16.593  INFO 18624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 12:25:16.604  INFO 18624 --- [restartedMain] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 12:25:16.605  INFO 18624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 217 ms
+2019-09-12 12:25:16.631  INFO 18624 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-12 12:25:16.634  INFO 18624 --- [cluster-ClusterId{value='5d79ebd4f2e1ea48c094d42e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:232}] to localhost:27017
+2019-09-12 12:25:16.636  INFO 18624 --- [cluster-ClusterId{value='5d79ebd4f2e1ea48c094d42e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=476075}
+2019-09-12 12:25:16.657  INFO 18624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 12:25:16.698  INFO 18624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 12:25:16.744  INFO 18624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/service'
+2019-09-12 12:25:16.745  INFO 18624 --- [restartedMain] com.example.inarayan.DemoApplication     : Started DemoApplication in 0.397 seconds (JVM running for 203.165)
+2019-09-12 12:25:16.746  INFO 18624 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 12:25:24.936  INFO 18624 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/service]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 12:25:24.943  INFO 18624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-12 12:25:24.955  INFO 18624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-09-12 12:25:24.960  WARN 18624 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:25:52.130  WARN 18624 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found]
+2019-09-12 12:26:27.503  INFO 18624 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:26:27.503  INFO 18624 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : image/png
+2019-09-12 12:26:27.506 ERROR 18624 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : Uploaded file is empty or invalid
+2019-09-12 12:26:27.506 ERROR 18624 --- [http-nio-8081-exec-3] c.e.i.controller.StoreWordController     : null
+2019-09-12 12:26:27.508  WARN 18624 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.inarayan.exception.ValidationException]
+2019-09-12 12:26:45.780  INFO 18624 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : Entering the method ..createWord
+2019-09-12 12:26:45.781  INFO 18624 --- [http-nio-8081-exec-4] c.e.i.controller.StoreWordController     : text/plain
+2019-09-12 12:26:45.790  INFO 18624 --- [http-nio-8081-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:233}] to localhost:27017
